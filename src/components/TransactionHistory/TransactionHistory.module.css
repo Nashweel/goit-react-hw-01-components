@@ -1,0 +1,27 @@
+.tarnsactionHistory {
+  width: 800px;
+  height: 1000px;
+  text-align: center;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+}
+.thead {
+  background-color: mediumturquoise;
+  color: black;
+  height: 50px;
+  text-transform: uppercase;
+}
+
+.tbody {
+  color: grey;
+}
+
+.grey {
+  composes: tbody;
+  background-color: lightgrey;
+}
+
+.white {
+  composes: tbody;
+  background-color: white;
+}

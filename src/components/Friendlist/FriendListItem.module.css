@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  width: 200px;
+  margin-bottom: 7px;
+  border-radius: 1px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.status {
+  display: inline-block;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+}
+.online {
+  composes: status;
+  background-color: green;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}
